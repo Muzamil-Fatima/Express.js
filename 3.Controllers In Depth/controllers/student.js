@@ -15,5 +15,4 @@ const deleteStudent = (req, res) => {
   res.send("Delete User");
 };
 
-
 export { allStudents, newStudent, updateStudent, deleteStudent};

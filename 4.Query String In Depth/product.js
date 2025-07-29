@@ -1,4 +1,2 @@
-const products = [
-    {title:"Some Title", company: "Nike"}
-]
+const products = [{ title: "Some Title", company: "Nike" }];
 export default products;

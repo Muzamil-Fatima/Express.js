@@ -7,8 +7,8 @@ const app = express();
 app.use("/students", students);
 app.use("/teachers", teachers);
 
-// 1. Create routes folder and put your routes in a seperate file
-// 2.Create instance of express. Rountes()
+// 1. Create routes folder and put your routes in a separate file
+// 2. Create instance of express. Routers()
 // 3. Instance of app. method change that to "routes.method"
 // 4. Export routes
 // 5. Import Routes

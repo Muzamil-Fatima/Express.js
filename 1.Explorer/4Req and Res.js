@@ -1,7 +1,5 @@
 import express from "express";
 const app = express();
-// console.log(clear)
-
 
 app.get(
   "/double-cb",

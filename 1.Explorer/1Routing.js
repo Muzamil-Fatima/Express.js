@@ -5,7 +5,7 @@ const app = express();
 // GET => Retrive Data
 // POST =>  create/Insert Data
 // PUT =>  completely Update Data
-// PATCH =>  PArtially UPdate Data
+// PATCH =>  Partially UPdate Data
 // DELETE =>  Delete Data
 // ALl =>  any HTTP Request Method
 
@@ -17,7 +17,7 @@ app.get("/about", (req, res) => {
   res.send("<h1>About </h1>");
 });
 
-app.get("/contact", (res, res) => {
+app.get("/contact", (req, res) => {
   res.send("<h1>This is Contact Page </h1>");
 });
 
