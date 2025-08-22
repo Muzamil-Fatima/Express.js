@@ -8,6 +8,7 @@ app.get("/ecom/product/iphone/:model", (req, res) => {
 const { model } = req.params;
 res.send(`IPhone ${model} Pro Max`)
 });
+
 // e-commerce/product/iphone/:iphone
 
 app.listen(8000, () => console.log("Server Up!"));
